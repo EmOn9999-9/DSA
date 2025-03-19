@@ -15,7 +15,7 @@ int fib(int num)
 int main()
 {
 	int i,n;
-	printf("\n Enter no. of elements");
+	printf("\n Enter no. of elements ");
 	scanf("%d",&n);
 	for(i=1;i<=n;i++){
 		printf("%d ",fib(i));
